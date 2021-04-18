@@ -38,24 +38,6 @@ var questions = [{
     }
 ];
 
-var questions = [{
-        question: chalk.green("1. Before becoming Vision, what is the name of Iron Man’s A.I. butler? "),
-        answer: "jarvis"
-    },
-    {
-        question: chalk.yellowBright("2. What is the real name of the Black Panther? "),
-        answer: "tchalla"
-    },
-    {
-        question: chalk.cyanBright("3. Who is Black Panther’s sister? "),
-        answer: "shuri"
-    },
-    {
-        question: chalk.magentaBright("4. What is the real name of the Scarlet Witch? "),
-        answer: "wanda maximoff"
-    }
-];
-
 
 function play(question, answer) {
     var userAnswer = readLineSync.question(question);
